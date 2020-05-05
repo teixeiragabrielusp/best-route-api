@@ -2,7 +2,7 @@
 
 ### Execução da aplicação ###
 
-- Para a execução dos scipts é necessária a instalação das depêndencias, para isso execute: npm i
+- Para a execução dos scipts é necessária a instalação das depêndencias, para isso execute: npm install
 
 - Interface de console:
   Para utilizar a aplicação via CLI você deve:
