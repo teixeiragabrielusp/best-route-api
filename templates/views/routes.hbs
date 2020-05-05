@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Travel Infos</title>    <link rel="icon" href="/img/plane.png">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p href="/routes">{{message}}</p>
+        <table href="/routes">
+            <thead>
+                <th> From </th>
+                <th> To </th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>GRU</td>
+                    <td>BRC</td>
+                </tr>
+                <tr>
+                    <td>GRU</td>
+                    <td>SCL</td>
+                </tr>
+                <tr>
+                    <td>GRU</td>
+                    <td>CDG</td>
+                </tr>
+                <tr>
+                    <td>GRU</td>
+                    <td>ORL</td>
+                </tr>
+                <tr>
+                    <td>BRC</td>
+                    <td>SCL</td>
+                </tr>
+                <tr>
+                    <td>BRC</td>
+                    <td>CDG</td>
+                </tr>
+                <tr>
+                    <td>BRC</td>
+                    <td>ORL</td>
+                </tr>
+                <tr>
+                    <td>SCL</td>
+                    <td>CDG</td>
+                </tr>
+                <tr>
+                    <td>SCL</td>
+                    <td>ORL</td>
+                </tr>
+                <tr>
+                    <td>ORL</td>
+                    <td>CDG</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {{>footer}}
+
+</body>
+
+</html>
